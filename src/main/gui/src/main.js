@@ -7,8 +7,8 @@ import {formatDate} from "./utils/TimeFormater"
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
 Vue.config.productionTip = false;
-// let apiUrl = "http://localhost:8080/notes/public/api";
-let apiUrl = "/notes/public/api"
+// let apiUrl = "http://localhost:8080/public/api";
+let apiUrl = "/public/api"
 
 axios.defaults.baseURL = apiUrl;
 axios.defaults.withCredentials = true;
