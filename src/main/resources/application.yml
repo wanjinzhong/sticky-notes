@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /notes
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${DB_HOST}:${DB_PORT}/STICKY_NOTES?verifyServerCertificate=false&useSSL=true&characterEncoding=utf-8
+    username: ${DB_NAME}
+    password: ${DB_PWD}
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
