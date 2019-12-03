@@ -1,7 +1,5 @@
 server:
   port: 8080
-  servlet:
-    context-path: /notes
 spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
